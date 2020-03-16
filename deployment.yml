@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: swe645
+  labels:
+    role: swe645
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      role: swe645
+  template:
+    metadata:
+      labels:
+        role: swe645
+    spec:
+      containers:
+      - name: swe645
+        image: dheeraj2004/dockerswe645:new
+        resources:
+          requests:
+            cpu: 10m
