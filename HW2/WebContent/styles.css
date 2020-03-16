@@ -1,13 +1,13 @@
 @charset "UTF-8";
 body {
-  background-color: lightgray;
+  background-color: pink;
   font-family: courier;
   border: 5px darkgray;
   border-style: groove;
   padding: 30px;
 }
 h1 {
-  color: pink;
+  color: blue;
   text-align: center;
   border: 5px blue;
   border-style: solid;
